@@ -1,18 +1,17 @@
-import Portfolio from "./Pages/HomePage/Portfolio";
 import "./App.css";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import "./assets/Styles/common.scss";
 import WelcomePage from "./Pages/Welcome Page/WelcomePage";
-import { useState } from "react";
+import Homepage from "./Pages/HomePage/Homepage";
+import Skills from "./Components/skills/Skills";
 
 function App() {
-  const [theme, setTheme] = useState("dark");
-  const location = useLocation();
   return (
     <Routes>
       <Route path="/" element={<WelcomePage />} />
-      <Route path="/portfolio" element={<Portfolio theme={theme} />} />
+      <Route path="/dashboard" element={<Homepage />} />
+      <Route path="/skills" element={<Skills />} />
     </Routes>
   );
 }

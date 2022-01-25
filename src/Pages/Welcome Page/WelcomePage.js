@@ -2,17 +2,19 @@ import React from "react";
 import "./style.scss";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Loader from "../../Components/Loader/Loader";
-import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { themeAction } from "../../Redux/Slice/ThemeSLice";
 
 function WelcomePage(props) {
-  const [loading, setLoading] = useState(true);
-  setTimeout(() => {
-    setLoading(false);
-  }, 2000);
-  return loading ? (
-    <Loader />
-  ) : (
+  const dispatch = useDispatch();
+
+  const lightTheme = () => {
+    dispatch(themeAction.light());
+  };
+  const darkTheme = () => {
+    dispatch(themeAction.dark());
+  };
+  return (
     <>
       <div className="white">
         <motion.span
@@ -46,13 +48,13 @@ function WelcomePage(props) {
           className="button"
         >
           <div className="light-button">
-            <Link to="/portfolio">
-              <button>Light</button>
+            <Link to="/dashboard">
+              <button onClick={lightTheme}>Light</button>
             </Link>
           </div>
           <div className="dark-button">
-            <Link to="/portfolio">
-              <button>Dark</button>
+            <Link to="/dashboard">
+              <button onClick={darkTheme}>Dark</button>
             </Link>
           </div>
         </motion.div>

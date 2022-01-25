@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1710250-1438-4b7d-b00f-82fdb64089ea" name="Changes" comment="chnages">
+      <change afterPath="$PROJECT_DIR$/src/Components/BorderComponent/Border.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BorderComponent/border.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/skills/Skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/skills/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/HomePage/Homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Slice/ThemeSLice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Store/Store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/line/Line.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/line/Line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Porfolio/Portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Porfolio/portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Welcome Page/WelcomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Welcome Page/WelcomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23yDTxxaHhsklaKD1NIzWCc2rzi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Ashish\Desktop\Portfolio\my-portfolio\node_modules\prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ashish\Desktop\Portfolio\my-portfolio\src\Components\Porfolio" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Portfolio.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/Porfolio/Portfolio.js" working-dir="$PROJECT_DIR$/src/Pages/HomePage">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Portfolio.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1710250-1438-4b7d-b00f-82fdb64089ea" name="Changes" comment="" />
+      <created>1642697454345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642697454345</updated>
+      <workItem from="1642697457278" duration="27000" />
+      <workItem from="1642697565258" duration="40000" />
+      <workItem from="1642697651716" duration="21201000" />
+      <workItem from="1642835462367" duration="3809000" />
+      <workItem from="1642999513804" duration="8708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chnages" />
+    <option name="LAST_COMMIT_MESSAGE" value="chnages" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
