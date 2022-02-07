@@ -1,16 +1,19 @@
 import React from "react";
 import "./style.scss";
-import skills from "../../constant";
 import Border from "../BorderComponent/Border";
 
-function Skills(props) {
+function Skills({ skill }) {
   return (
     <div className="skill-wrapper">
-      <div>Programming Language</div>
+      <div>{skill.name}</div>
       <div className="skill">
-        <Border>Python</Border>
-        <Border>Python</Border>
-        <Border>Python</Border>
+      {
+        skill.skills.map(el=>(
+         
+          <Border> {el} </Border>
+         
+        ))
+      }
       </div>
     </div>
   );

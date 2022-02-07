@@ -3,11 +3,11 @@ import "./style.scss";
 import { useSelector } from "react-redux";
 
 function Line(props) {
-  const light = useSelector((state) => state.theme.light);
+  const theme = localStorage.getItem('theme')
   return (
     <div
       className="line"
-      style={{ background: `${light ? "black" : "white"}` }}
+      style={{ background: `${theme === 'light' ? "black" : "white"}` }}
     />
   );
 }

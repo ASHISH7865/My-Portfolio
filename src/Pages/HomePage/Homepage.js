@@ -1,13 +1,17 @@
 import React from "react";
-import { useSelector } from "react-redux";
-import Portfolio from "../../Components/Porfolio/Portfolio";
+import Portfolio from "../../Components/Portfolio/Portfolio";
 import Navbar from "../../Components/Navbar/Navbar";
 
 function Homepage(props) {
-  const light = useSelector((state) => state.theme.light);
+  const theme = localStorage.getItem("theme");
   return (
-    <div className={`main-container ${light ? "lightTheme" : " darkTheme"} `}>
+    <div
+      className={`main-container ${
+        theme === "light" ? "lightTheme" : " darkTheme"
+      } `}
+    >
       <Portfolio />
+      <div style={{ margin: "30px 0" }}> </div>
       <Navbar />
     </div>
   );

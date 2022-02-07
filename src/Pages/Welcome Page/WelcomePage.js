@@ -1,18 +1,17 @@
-import React from "react";
+import React ,{ useState }  from "react";
 import "./style.scss";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { themeAction } from "../../Redux/Slice/ThemeSLice";
+
 
 function WelcomePage(props) {
-  const dispatch = useDispatch();
+ 
 
   const lightTheme = () => {
-    dispatch(themeAction.light());
+   localStorage.setItem('theme','light')
   };
   const darkTheme = () => {
-    dispatch(themeAction.dark());
+    localStorage.setItem('theme','dark')
   };
   return (
     <>
